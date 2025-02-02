@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cybersecurity Awareness</title>
+    <link rel="stylesheet" href="awareness.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header id="navbar">
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#threats">Cyber Threats</a></li>
+                <li><a href="#prevention">Prevention Tips</a></li>
+                <li><a href="#bestpractices">Best Practices</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <div class="hero">
+            <h1>Stay Safe Online - Cybersecurity Awareness</h1>
+            <p>Learn the essential practices to keep your data safe and secure in the digital world.</p>
+            <p>In today's interconnected world, cybersecurity is not just an option - it's a necessity.</p>
+            <button onclick="window.location.href='#about'">Start Learning</button>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <div class="content-wrapper">
+                <div class="main-content">
+                    <h2>About Cybersecurity</h2>
+                    <p>Cybersecurity is the practice of defending computers, servers, mobile devices, electronic systems, networks, and data from malicious attacks.</p>
+                    
+                    <h3>Why Cybersecurity Matters</h3>
+                    <p>In our increasingly digital world, cybersecurity has become crucial for several reasons:</p>
+                    <ul>
+                        <li>The average cost of a data breach is over $4 million</li>
+                        <li>Cyber attacks occur every 39 seconds on average</li>
+                        <li>Personal information can be sold on the dark web within seconds</li>
+                        <li>60% of small businesses close within 6 months of a cyber attack</li>
+                    </ul>
+
+                    <h3>Key Areas of Cybersecurity</h3>
+                    <ul>
+                        <li><strong>Network Security:</strong> Protecting network infrastructure from unauthorized access</li>
+                        <li><strong>Application Security:</strong> Keeping software and devices free of threats</li>
+                        <li><strong>Information Security:</strong> Protecting the integrity and privacy of data</li>
+                        <li><strong>Operational Security:</strong> Processes for handling and protecting data assets</li>
+                    </ul>
+                </div>
+                
+                <div class="quiz-container">
+                    <h3>Test Your Understanding</h3>
+                    <form class="quiz-form" id="aboutQuiz">
+                        <div class="question">
+                            <p>1. Why is cybersecurity important?</p>
+                            <label><input type="radio" name="q1" value="a"> Only important for big companies</label>
+                            <label><input type="radio" name="q1" value="b"> Protects against increasing digital threats</label>
+                            <label><input type="radio" name="q1" value="c"> Just a temporary trend</label>
+                        </div>
+                        <div class="question">
+                            <p>2. What percentage of small businesses close after a cyber attack?</p>
+                            <label><input type="radio" name="q2" value="a"> 20%</label>
+                            <label><input type="radio" name="q2" value="b"> 40%</label>
+                            <label><input type="radio" name="q2" value="c"> 60%</label>
+                        </div>
+                        <button type="submit">Check Answers</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="threats">
+        <div class="container">
+            <div class="content-wrapper">
+                <div class="main-content">
+                    <h2>Common Cyber Threats</h2>
+                    
+                    <h3>Phishing Attacks</h3>
+                    <p>Phishing remains one of the most dangerous cyber threats today. Attackers use increasingly sophisticated methods to trick users:</p>
+                    <ul>
+                        <li><strong>Email Phishing:</strong> Fake emails claiming to be from legitimate companies</li>
+                        <li><strong>Spear Phishing:</strong> Targeted attacks using personal information</li>
+                        <li><strong>Whaling:</strong> Attacks specifically targeting high-level executives</li>
+                        <li><strong>Vishing:</strong> Voice phishing using phone calls</li>
+                    </ul>
+
+                    <h3>Malware Types</h3>
+                    <ul>
+                        <li><strong>Ransomware:</strong> Encrypts your files and demands payment</li>
+                        <li><strong>Spyware:</strong> Secretly monitors your activities</li>
+                        <li><strong>Trojans:</strong> Malicious programs disguised as legitimate software</li>
+                        <li><strong>Worms:</strong> Self-replicating malware that spreads across networks</li>
+                    </ul>
+                </div>
+
+                <div class="quiz-container">
+                    <h3>Test Your Knowledge</h3>
+                    <form class="quiz-form" id="threatsQuiz">
+                        <div class="question">
+                            <p>1. What is spear phishing?</p>
+                            <label><input type="radio" name="q1" value="a"> Fishing with a spear</label>
+                            <label><input type="radio" name="q1" value="b"> A targeted phishing attack</label>
+                            <label><input type="radio" name="q1" value="c"> A type of malware</label>
+                        </div>
+                        <div class="question">
+                            <p>2. What does ransomware do?</p>
+                            <label><input type="radio" name="q2" value="a"> Steals passwords</label>
+                            <label><input type="radio" name="q2" value="b"> Encrypts files for ransom</label>
+                            <label><input type="radio" name="q2" value="c"> Speeds up your computer</label>
+                        </div>
+                        <button type="submit">Check Answers</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="prevention">
+        <div class="container">
+            <div class="content-wrapper">
+                <div class="main-content">
+                    <h2>How to Protect Yourself</h2>
+
+                    <h3>Password Security</h3>
+                    <ul>
+                        <li><strong>Length:</strong> Use passwords with at least 12 characters</li>
+                        <li><strong>Complexity:</strong> Mix uppercase, lowercase, numbers, and symbols</li>
+                        <li><strong>Uniqueness:</strong> Never reuse passwords across accounts</li>
+                        <li><strong>Password Manager:</strong> Use a reliable password manager</li>
+                    </ul>
+
+                    <h3>Multi-Factor Authentication (MFA)</h3>
+                    <p>MFA adds extra layers of security beyond just passwords:</p>
+                    <ul>
+                        <li><strong>Something you know:</strong> Password or PIN</li>
+                        <li><strong>Something you have:</strong> Phone or security key</li>
+                        <li><strong>Something you are:</strong> Fingerprint or face recognition</li>
+                    </ul>
+                </div>
+
+                <div class="quiz-container">
+                    <h3>Test Your Understanding</h3>
+                    <form class="quiz-form" id="preventionQuiz">
+                        <div class="question">
+                            <p>1. What is the minimum recommended password length?</p>
+                            <label><input type="radio" name="q1" value="a"> 8 characters</label>
+                            <label><input type="radio" name="q1" value="b"> 12 characters</label>
+                            <label><input type="radio" name="q1" value="c"> 6 characters</label>
+                        </div>
+                        <div class="question">
+                            <p>2. What does MFA stand for?</p>
+                            <label><input type="radio" name="q2" value="a"> Multi-Factor Authentication</label>
+                            <label><input type="radio" name="q2" value="b"> Multiple Failed Attempts</label>
+                            <label><input type="radio" name="q2" value="c"> Main Factor Analysis</label>
+                        </div>
+                        <button type="submit">Check Answers</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Cybersecurity Awareness. All Rights Reserved To Hamza Alian.</p>
+    </footer>
+
+    <script src="quiz.js"></script>
+</body>
+</html>
