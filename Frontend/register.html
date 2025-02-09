@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Page</title> 
+    <link rel="stylesheet" href="register&login.css">
+   </head>
+<body>
+  <div class="wrapper">
+    <h2>Registration</h2>
+    <form action="/register" method="POST">
+      <div class="input-box">
+        <input type="text" name="name" placeholder="Enter your name" required>
+      </div>
+      <div class="input-box">
+        <input type="text" name="email" placeholder="Enter your email" required>
+      </div>
+      <div class="input-box">
+        <input type="password" name="password" placeholder="Create password" required>
+      </div>
+      <div class="input-box">
+        <select name="level" id="level" required>
+            <span class="material-symbols-outlined">
+                arrow_drop_down
+                </span>
+            <option value="" disabled selected hidden>Choose your level</option>
+            <option value="1">I know nothing in Tech or Security</option>
+            <option value="2">I know a little bit and I want to protect Myself</option>
+            <option value="3">I am Learning Secure Coding</option>
+          </select>
+      </div>
+      <div class="input-box button">
+        <input type="Submit" value="Register Now">
+      </div>
+      <div class="text">
+        <h3>Already have an account? <a href="login.html">Login now</a></h3>
+      </div>
+    </form>
+  </div>
+</body>
+</html>
