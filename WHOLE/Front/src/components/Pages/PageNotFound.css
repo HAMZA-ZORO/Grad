@@ -1,0 +1,21 @@
+/* PageNotFound.css */
+.bg-danger {
+  background-color: #ff4d4d; /* or your desired background color */
+}
+
+.page-not-found-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 60px); /* Adjust for navbar height */
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+
+.pnt {
+  font-family: Arial, sans-serif;
+  font-size: 4rem;
+  font-weight: bold;
+  color: white; /* Ensure it's readable */
+}

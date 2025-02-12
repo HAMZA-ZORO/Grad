@@ -1,0 +1,14 @@
+.hero {
+  background-image: url("13777983_gradient_2.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* For Footer Background */
+.footer {
+  background-image: url("13777983_gradient_2.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}

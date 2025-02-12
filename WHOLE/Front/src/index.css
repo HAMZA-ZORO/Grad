@@ -1,0 +1,9 @@
+@font-face {
+  font-family: Cascadia;
+  src: url(../Fonts/Cascadia.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
